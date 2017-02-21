@@ -1,0 +1,753 @@
+@import "compass/css3";
+*
+{
+	margin: 0;
+	padding: 0;
+	
+}
+
+body, html
+{
+	height: 100%;
+	font-family: arial;
+}
+
+#container
+{
+	float: left;
+	width: 100%;
+	min-height: 100%;
+}
+
+#menu
+{
+	float: left;
+	width: 200px; /*Width of left column*/
+	min-height: 100%;
+	position: fixed;
+	background: #5a5a5a;
+}
+
+#menuTeken
+{
+	color: white;
+	width: 100%;
+	margin-left: 10px;
+	float: left;
+	font-size: 20pt;
+	line-height: 50px;
+}
+
+
+#header
+{
+	float: left;
+	height: 80px;
+	width: 100%;
+	border-bottom: 3px solid #00a19a;
+	
+}
+
+.logoheader
+{
+	margin-left: 220px;
+}
+
+#header img
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	height: 70px;
+}
+
+#content
+{
+	float: left;
+	width: 100%;
+	height: auto;
+}
+
+.formUpload
+{
+	margin-left: 220px;
+}
+
+.formPage
+{
+	margin-left: 220px;
+}
+
+#contentRight
+{
+	max-width: 500px;
+	width: 500px;
+	height: auto;
+	float: left;
+	margin-left: 20px;
+}
+/* content dashboard left */
+#news
+{
+	width: 100%;
+	height: auto;
+	
+	
+}
+#newsHeader
+{
+	width:100%;
+	height: 20px;
+	line-height: 20px;
+	background-color: #00a19a;
+	color: white;
+	float:left;
+	padding: 10px;
+	
+}
+
+#newsContent
+{
+	width: 100%;
+	height: auto;
+	background-color: #F1F1F1;
+	float: left;
+	padding: 10px;
+}
+
+hr
+{
+	border: 0.5px solid #00a19a;
+}
+
+#newsContent p
+{
+	font-size: 10pt;
+	color: #585453;
+	padding-bottom: 10px;
+}
+
+#newsContent h4
+{
+	color: #585453;
+	padding-top: 5px;
+}
+
+
+/* content dashboard middle */
+#update
+{
+	width: 1000px;
+	height: auto;
+	float: left;
+	margin-left: 220px;
+	
+}
+#updateHeader
+{
+	width:980px;
+	height: 20px;
+	line-height: 20px;
+	background-color: #00a19a;
+	color: white;
+	float:left;
+	padding: 10px;
+}
+
+#updateContent
+{
+	width: 1000px;
+	height: auto;
+	background-color: #F1F1F1;
+	float: left;
+}
+
+/* content dashboard right */
+#contact
+{
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+	
+}
+#contactHeader
+{
+	width:100%;
+	height: 20px;
+	line-height: 20px;
+	background-color: #00a19a;
+	color: white;
+	float:left;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+#contactContent
+{
+	width: 100%;
+	height: auto;
+	background-color: #F1F1F1;
+	float: left;
+	padding: 10px;
+}
+
+#contactContent p
+{
+	font-size: 10pt;
+	color: #585453;
+}
+
+#contactContent h4
+{
+	color: #585453;
+	padding-top: 5px;
+}
+
+/* content dashboard right */
+#nieuwsbrief
+{
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+	
+}
+#nieuwsbriefHeader
+{
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	background-color: #00a19a;
+	color: white;
+	float:left;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+#nieuwsbriefContent
+{
+	width: 100%;
+	height: auto;
+	background-color: #F1F1F1;
+	float: left;
+	padding: 10px;
+}
+
+#nieuwsbriefContent p
+{
+	font-size: 10pt;
+	color: #585453;
+}
+
+#nieuwsbriefContent h4
+{
+	color: #585453;
+	padding-top: 5px;
+}
+
+#content ul
+{
+	width: 500px;
+	margin-left: 200px;
+}
+
+#menu a
+{
+	display: block;
+	color: white;
+	padding: 10px 10px;
+	border-bottom: 1px solid #333333;
+	list-style: none;
+	text-decoration: none;
+}
+#menu a:hover
+{
+	color: lightgrey;
+}
+
+#topMenu
+{
+	float: right;
+	margin-right: 50px;
+	margin-top: 30px;
+}
+
+#topMenu li
+{
+	float: left;
+	list-style: none;
+	margin-left: 20px;
+	color: #00a19a;;
+}
+
+#topMenu a
+{
+	text-decoration: none;
+	color: #00a19a;
+}
+
+#topMenu a:hover
+{
+	text-decoration: underline;
+}
+
+
+h2
+{
+	background-color: #F1F1F1;
+	color: #585453;
+	height: 80px;
+	padding-left: 220px;
+	line-height: 80px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #E8E8E8;
+}
+
+#main_content
+{
+	width: 500px;
+	margin-left: 200px;
+	padding-left: 10px;
+}
+
+.editBox
+{
+	width: 500px;
+	margin-bottom: 10px;
+}
+
+.editArea
+{
+	width: 500px;
+	height: 200px;
+	resize: none;
+	margin-bottom: 10px;
+}
+
+
+/* dropdown stukje */
+
+.container 
+{
+	width: 300px;
+	margin: 50px auto;
+}
+
+ul 
+{
+    list-style: none;
+    padding: 0;
+}
+
+.dropdown a
+{
+  text-decoration: none;
+}
+
+.dropdown-menu 
+{
+	max-height: 0;
+	overflow: hidden;
+}
+
+.dropdown-menu li
+{
+	background-color: grey;
+}
+
+.dropdown-menu li:hover
+{
+	background: linear-gradient(to right, #00a19a, #2fac66);
+	color: white;
+}
+
+li 
+{
+    padding: 0; 
+}
+
+.show, .hide 
+{
+		@include transform-origin(50%, 0%);
+}
+
+.show 
+{
+		display: block;
+		max-height: 9999px;
+
+}
+
+.hide 
+{
+		max-height: 0;
+		
+}
+
+#marqueeHeader
+{
+	width:100%;
+	height: 20px;
+	line-height: 20px;
+	background-color: #00a19a;
+	color: white;
+	float:left;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.marquee {
+	width:100%;
+   margin: 0 auto;
+   white-space: nowrap;
+   overflow: hidden;
+   box-sizing: border-box;
+   color:white;
+   font-size:18px;
+}
+
+.marquee span {
+   display: inline-block;
+   padding-left: 100%;
+   text-indent: 0;
+   animation: marquee 15s linear infinite;
+}
+
+.marquee span:hover {
+    animation-play-state: paused
+}
+
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+
+#menu2
+{
+	display:none;
+}
+
+#animate_header
+{
+	display: none;
+}
+
+.animateMenu
+{
+	display: none;
+}
+
+@media only screen and (max-width: 900px) 
+{
+		#menu
+		{
+			display:none;
+		}
+		
+		#menu2
+		{
+			width: 100%;
+			background-color: #333334;
+			color: white;
+			height: 50px;
+			float: left;
+			display: block;
+			z-index: 10;
+			line-height: 50px;
+			
+		}
+		
+		#menuTeken
+		{
+			color: white;
+			width: 100%;
+			margin-left: 0px;
+			float: left;
+			font-size: 20pt;
+			line-height: 50px;
+		}
+		
+		.animateMenu h4
+		{
+			float: left;
+			font-family: arial;
+			margin-left: 14px;
+		}
+		
+		#animate_header
+		{
+			height: 50px;
+			line-height: 50px;
+			color: white;
+		}
+		
+
+		.animateMenu
+		{
+			width: 200px;
+			background-color: #00a19a;
+			color: white;
+			height: auto;
+			border-radius: 0px 0px 10px 0px;
+			float: left;
+			display: block;
+			position: fixed;
+			margin-left: -210px;
+			margin-top: 50px;
+			z-index: 10;
+			line-height: 30px;
+		}
+		
+		#animateUL
+		{
+			margin-left: 10px;
+			list-style: none;
+		}
+		
+		#animateUL a
+		{
+			color: white;
+			text-decoration: none;
+			font-family: arial;
+			margin-bottom: -10px;
+		}
+		
+		#update
+		{
+			display: none;
+			
+		} 
+		
+		#content
+		{
+			max-width: 100%;
+			
+		}
+		.logoheader
+		{
+			display: none;
+		}
+		
+		.formUpload
+		{
+			margin-left: 20px;
+		}
+
+		.formPage
+		{
+			margin-left: 20px;
+		}
+		#header
+		{
+			display:none;
+		}
+		
+		#contentRight
+		{
+			max-width:100%;
+			margin: 0px;
+			padding-right: -20px;
+		}
+		
+		#marquee
+		{
+			max-width: 900px;
+		}
+		
+		#news #contact #nieuwsbrief
+		{
+			max-width: 100%;
+		}
+		
+		
+		h3, h4, p, .menuIcon, input
+		{
+			margin-left: 10px;
+		}
+		
+		
+		#marqueeHeader, #newsHeader, #contactHeader, #nieuwsbriefHeader, #nieuwsbriefContent, #newsContent, #contactContent
+		{
+			padding: 0px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+		
+		h2
+		{
+			padding-left: 0px;
+			text-align: center;
+		}
+		
+		
+}
+
+
+@media only screen and (max-width: 500px) 
+{
+		#menu
+		{
+			display:none;
+		}
+		
+		#menu2
+		{
+			width: 100%;
+			background-color: #333334;
+			color: white;
+			height: 50px;
+			float: left;
+			display: block;
+			z-index: 10;
+			line-height: 50px;
+			
+		}
+		
+		.animateMenu h3
+		{
+			float: left;
+			font-family: arial;
+			margin-left: 14px;
+		}
+		
+		#animate_header
+		{
+			height: 50px;
+			line-height: 50px;
+		}
+		
+		#animate_header img
+		{
+			height: 40px;
+			line-height: 40px;
+		}
+
+		.animateMenu
+		{
+			width: 200px;
+			background-color: #00a19a;
+			color: white;
+			height: auto;
+			border-radius: 0px;
+			float: left;
+			display: block;
+			position: fixed;
+			margin-left: -210px;
+			margin-top: 50px;
+			z-index: 10;
+			line-height: 30px;
+		}
+		
+		#animateUL
+		{
+			margin-left: 10px;
+			list-style: none;
+		}
+		
+		#animateUL a
+		{
+			color: white;
+			text-decoration: none;
+			font-family: arial;
+			margin-bottom: -10px;
+		}
+		
+		#update
+		{
+			display: none;
+			
+		} 
+		
+		#content
+		{
+			max-width: 100%;
+			
+		}
+		.logoheader
+		{
+			display: none;
+		}
+		
+		.formUpload
+		{
+			margin-left: 20px;
+		}
+
+		.formPage
+		{
+			margin-left: 20px;
+		}
+		#header
+		{
+			display:none;
+		}
+		
+		#contentRight
+		{
+			max-width:100%;
+			width: 100%;
+			margin: 0px;
+			margin-left: 0px;
+			padding-right: -20px;
+		}
+		
+		#marquee
+		{
+			max-width: 500px;
+		}
+		
+		#news #contact #nieuwsbrief
+		{
+			max-width: 100%;
+		}
+		
+	
+		h2
+		{
+			padding-left: 0px;	
+		}
+			
+}
+
+@media only screen and (max-width: 1450px)
+{
+		#update
+		{
+			width: 700px;
+			height: auto;
+			float: left;
+			margin-left: 220px;
+			
+		}
+		#updateHeader
+		{
+			width:680px;
+			height: 20px;
+			line-height: 20px;
+			background-color: #00a19a;
+			color: white;
+			float:left;
+			padding: 10px;
+		}
+
+		#updateContent
+		{
+			width: 700px;
+			height: auto;
+			background-color: #F1F1F1;
+			float: left;
+		}
+		
+		#contentRight
+		{
+			max-width: 100%;
+			margin-left: 220px;
+			margin-top: 10px;
+			width: 680px;
+		}
+		
+		#update img
+		{
+			width: 700px;
+		}
+		
+
+}
